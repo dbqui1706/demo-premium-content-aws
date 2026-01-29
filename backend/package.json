@@ -1,0 +1,36 @@
+{
+    "name": "premium-content-backend",
+    "version": "1.0.0",
+    "description": "Backend API for Premium Content Demo with JWT authentication and CloudFront signed URLs",
+    "main": "src/server.js",
+    "type": "module",
+    "scripts": {
+        "start": "node src/server.js",
+        "dev": "nodemon src/server.js",
+        "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+        "seed": "node src/scripts/seedDatabase.js"
+    },
+    "keywords": [
+        "lambda-edge",
+        "cloudfront",
+        "jwt",
+        "premium-content"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "aws-sdk": "^2.1520.0",
+        "bcryptjs": "^2.4.3",
+        "cors": "^2.8.5",
+        "dotenv": "^16.6.1",
+        "express": "^4.18.2",
+        "express-rate-limit": "^7.1.5",
+        "helmet": "^7.1.0",
+        "jsonwebtoken": "^9.0.2",
+        "sql.js": "^1.10.3"
+    },
+    "devDependencies": {
+        "jest": "^29.7.0",
+        "nodemon": "^3.0.2"
+    }
+}

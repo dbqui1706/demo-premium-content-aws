@@ -1,0 +1,50 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# Database
+*.db
+*.db-journal
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Build outputs
+dist/
+build/
+*.zip
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# AWS
+*.pem
+keys/
+cloudfront-private-key.pem
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+
+# Coverage
+coverage/
+.nyc_output/
+
+# agent
+.agent/

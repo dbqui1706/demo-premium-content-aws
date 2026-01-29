@@ -1,0 +1,7 @@
+{
+    "name": "origin-request-lambda",
+    "version": "1.0.0",
+    "description": "Lambda@Edge Origin Request function for custom headers",
+    "main": "index.js",
+    "type": "module"
+}

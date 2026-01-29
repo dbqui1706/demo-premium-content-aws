@@ -1,0 +1,7 @@
+{
+    "name": "viewer-request-lambda",
+    "version": "1.0.0",
+    "description": "Lambda@Edge Viewer Request function for JWT validation",
+    "main": "index.js",
+    "type": "module"
+}
